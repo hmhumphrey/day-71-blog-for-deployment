@@ -14,6 +14,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 # import smtplib
 import os
 from dotenv import load_dotenv
+import psycopg2
 '''
 Make sure the required packages are installed: 
 Open the Terminal in PyCharm (bottom left). 
